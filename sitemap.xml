@@ -1,19 +1,44 @@
-<?xml-stylesheet type="text/xsl" href="https://wuxiaolang.github.io/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://yanmin-wu.github.io/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://wuxiaolang.github.io/categories/</loc>
-    <priority>0</priority>
+    <loc>https://yanmin-wu.github.io/project/mpslam/</loc>
+    <lastmod>2020-02-20T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://wuxiaolang.github.io/tags/</loc>
-    <priority>0</priority>
+    <loc>https://yanmin-wu.github.io/about/</loc>
+    <lastmod>2017-08-28T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://wuxiaolang.github.io/</loc>
-    <priority>0</priority>
+    <loc>https://yanmin-wu.github.io/project/</loc>
+    <lastmod>2020-02-20T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanmin-wu.github.io/</loc>
+    <lastmod>2020-02-20T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanmin-wu.github.io/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanmin-wu.github.io/tags/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>

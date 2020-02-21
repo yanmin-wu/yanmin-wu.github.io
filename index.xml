@@ -1,15 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>知不足而后进--wuxiaolang</title>
-    <link>https://wuxiaolang.github.io/</link>
-    <description>Recent content on 知不足而后进--wuxiaolang</description>
+    <title>wuyanmin</title>
+    <link>https://yanmin-wu.github.io/</link>
+    <description>Recent content on wuyanmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>wuyanmin</copyright>
+    <lastBuildDate>Thu, 20 Feb 2020 00:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://wuxiaolang.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yanmin-wu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MP-SLAM</title>
+      <link>https://yanmin-wu.github.io/project/mpslam/</link>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://yanmin-wu.github.io/project/mpslam/</guid>
+      <description>MP-SLAM 0. abstract wuyanminmax@gmail.com 2020.02.20</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yanmin-wu.github.io/about/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      
+      <guid>https://yanmin-wu.github.io/about/</guid>
+      <description>About me 机器人科学与工程专业在读研究生，学习方向为视觉 SLAM、增强现实，学得不好，需要努力。 喜欢电影，推理、犯罪、悬疑，写字的喜欢三叔、紫金陈</description>
+    </item>
     
   </channel>
 </rss>
