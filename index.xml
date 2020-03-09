@@ -18,7 +18,7 @@
       <pubDate>Thu, 20 Feb 2020 00:00:00 +0800</pubDate>
       
       <guid>https://yanmin-wu.github.io/project/eaoslam/</guid>
-      <description>EAO-SLAM Abstract Object-level data association and pose estimation play a fundamental role in semantic SLAM, which remain unsolved due to the lack of robust and accurate algorithms. In this work, we propose an ensemble data associate strategy to integrate the parametric and nonparametric statistic tests. By exploiting the nature of different statistics, our method can effectively aggregate the information of different measurements, and thus significantly improve the robustness and accuracy</description>
+      <description>EAO-SLAM: Monocular Semi-Dense Object SLAM Based on Ensemble Data Association Authors Yanmin Wu, Yunzhou Zhang*, Delong Zhu, Yonghui Feng, Sonya Coleman and Dermot Kerr ✉ wuyanminmax@gmail.com, * zhangyunzhou@mail.neu.edu.cn Abstract Object-level data association and pose estimation play a fundamental role in semantic SLAM, which remain unsolved due to the lack of robust and accurate algorithms. In this work, we propose an ensemble data associate strategy to integrate the parametric and nonparametric</description>
     </item>
     
     <item>
