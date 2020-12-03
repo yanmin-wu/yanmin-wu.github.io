@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Yanmin Wu</copyright>
-    <lastBuildDate>Thu, 20 Feb 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 03 Dec 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://yanmin-wu.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Active-Mapping</title>
+      <link>https://yanmin-wu.github.io/project/active-mapping/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://yanmin-wu.github.io/project/active-mapping/</guid>
+      <description>Object-Driven Active Mapping for More Accurate Object Pose Estimation and Robotic Grasping Authors Yanmin Wu, Yunzhou Zhang*, Delong Zhu*, Xin Chen, Sonya Coleman, Wenkai Sun, Xinggang Hu, and Zhiqiang Deng ✉ zhangyunzhou@mail.neu.edu.cn, zhudelong@link.cuhk.edu.hk Abstract This paper presents the first active object mapping framework for complex robotic grasping tasks. The framework is built on an object SLAM system integrated with a simultaneous multi-object pose estimation process. Aiming to reduce the observation</description>
+    </item>
     
     <item>
       <title>EAO-SLAM</title>
