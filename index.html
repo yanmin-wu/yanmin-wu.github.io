@@ -1,177 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>wuyanmin</title>
-  <meta name="renderer" content="webkit" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <head>
+    <title>Yanmin Wu - Homepage</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Yanmin Wu's homepage" />
+    <link rel="icon" href="media/sleep.svg" />
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap);
+      html {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        max-width: 100%;
+        height: 100%;
+      }
+      body {
+        padding: 0;
+        margin: 0 auto;
+        max-width: 800px;
+        min-width: 375px;
+      }
+      a {
+        text-decoration: none;
+        color: #1772d0;
+        cursor: pointer;
+      }
+      a:hover {
+        color: #f09228;
+      }
+      strong {
+        font-weight: 400;
+      }
+      header {
+        font-size: 15px;
+        min-height: 273px;
+        padding: 20px;
+        margin: 8px 20px;
+        padding-right: 220px;
+        position: relative;
+      }
+      header > picture {
+        position: absolute;
+        width: 200px;
+        height: 273px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+      @media (max-width: 540px) {
+        header {
+          padding-right: 0;
+        }
+        header > picture {
+          position: static;
+          display: block;
+          margin: auto;
+        }
+      }
+      .self-intro-name {
+        padding: 14px 0;
+        text-align: center;
+        font-weight: 400;
+        font-size: 32px;
+      }
+      .self-intro-links {
+        text-align: center;
+      }
+      h1 {
+        font-size: 24px;
+        padding: 20px;
+        margin: 0;
+        font-weight: 400;
+      }
+      .publication {
+        padding: 20px;
+        font-size: 15px;
+      }
+      .publication p {
+        margin: 0;
+      }
+      .publication > picture {
+        float: left;
+        object-fit: contain;
+        margin-right: 20px;
+        overflow: hidden;
+      }
+      .publication > picture > img {
+        transition: transform ease-in-out .3s;
+      }
+      .publication > picture > img:hover {
+        transform: scale(1.1);
+      }
+      .publication .title {
+        font-weight: 500;
+        margin-bottom: 5px;
+      }
+      .publication .authors {
+        margin-bottom: 5px;
+      }
+      .publication .venue {
+        margin-bottom: 5px;
+      }
+      .publication .links {
+        margin-bottom: 5px;
+      }
+      .publication .link::before {
+        content: "[";
+      }
+      .publication .link::after {
+        content: "]";
+      }
+      .publication .link {
+        margin-right: 3px;
+      }
+      .publication .desc {
+        margin-top: 14px;
+        font-size: 14px;
+      }
+      footer {
+        text-align: right;
+        padding: 20px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="self-intro-name">Yanmin Wu (吴艳敏)</div>
+      <picture>
+        <!-- <source srcset="/media/IDPhoto.avif" type="image/avif" /> -->
+        <img width="172" height="232" src="img/profile.jpg" alt="ID Photo" />
+      </picture>
+      <div>
+        <p>
+          I am a third-year Ph.D. candidate at Peking University, 
+          supervised by Prof. <b><a href="https://jianzhang.tech/">Jian Zhang</a></b> 
+          in the <b><a href="https://villa.jianzhang.tech/">VILLA</a></b>.
+        </p>
+        <p>
+          My research interests includes 
+          <b>1)</b> Neural Rendering (NeRF/3D Gaussian); 
+          <b>2)</b> 3D Vision-and-Language; 
+          <b>3)</b> Visual SLAM.
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-<meta name="theme-color" content="#f8f5ec" />
-<meta name="msapplication-navbutton-color" content="#f8f5ec">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
-
-
-<meta name="author" content="olOwOlo" /><meta name="description" content="Hugo theme even example site." /><meta name="keywords" content="Hugo, theme, even" />
-
-
-<meta name="baidu-site-verification" content="4JHcYo1sTM" />
-
-
-
-<meta name="generator" content="Hugo 0.68.0 with even 4.0.0" />
-
-
-<link rel="canonical" href="https://yanmin-wu.github.io/" />
-  <link href="https://yanmin-wu.github.io/index.xml" rel="alternate" type="application/rss+xml" title="wuyanmin" />
-  <link href="https://yanmin-wu.github.io/index.xml" rel="feed" type="application/rss+xml" title="wuyanmin" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<link href="/dist/even.13f38172.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
-
-
-<meta property="og:title" content="wuyanmin" />
-<meta property="og:description" content="Hugo theme even example site." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://yanmin-wu.github.io/" />
-<meta property="og:updated_time" content="2020-12-03T00:00:00+08:00" />
-<meta itemprop="name" content="wuyanmin">
-<meta itemprop="description" content="Hugo theme even example site."><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="wuyanmin"/>
-<meta name="twitter:description" content="Hugo theme even example site."/>
-
-<!--[if lte IE 9]>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
-<![endif]-->
-
-<!--[if lt IE 9]>
-  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-<![endif]-->
-
-</head>
-<body>
-  <div id="mobile-navbar" class="mobile-navbar">
-  <div class="mobile-header-logo">
-    <a href="/" class="logo">wu&#39;page</a>
-  </div>
-  <div class="mobile-navbar-icon">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</div>
-<nav id="mobile-menu" class="mobile-menu slideout-menu">
-  <ul class="mobile-menu-list">
-    <a href="">
-        <li class="mobile-menu-item"></li>
-      </a>
-  </ul>
-</nav>
-  <div class="container" id="mobile-panel">
-    <header id="header" class="header">
-        <div class="logo-wrapper">
-  <a href="/" class="logo">wu&#39;page</a>
-</div>
-
-<nav class="site-navbar">
-  <ul id="menu" class="menu">
-    <li class="menu-item">
-        <a class="menu-item-link" href=""></a>
-      </li>
-  </ul>
-</nav>
+        </p>
+        <div class="self-intro-links">
+          <a href="mailto:wuyanminmax[at]gmail.com">Email</a>
+          &nbsp;|&nbsp;
+          <a href="https://scholar.google.com/citations?user=11sQNWwAAAAJ&hl">Google Scholar</a>
+          &nbsp;|&nbsp;
+          <a href="https://github.com/yanmin-wu/">GitHub</a>
+        </div>
+      </div>
     </header>
-
-	<main id="main" class="main">
-		  <br><br><br><br> 
-	<div class="content-wrapper">
-	<a href="https://yanmin-wu.github.io/project/eaoslam/" class="archive-post-link">
-	1. EAO-SLAM
-	</a>
-	</div>
-
-	<div class="content-wrapper">
-	<a href="https://yanmin-wu.github.io/project/active-mapping/" class="archive-post-link">
-	2. Active-Mapping
-	</a>
-	</div>
-	</main>
-
-    <footer id="footer" class="footer">
-      <div class="social-links">
-      <a href="wuyanminmax@gmail.com" class="iconfont icon-email" title="email"></a>
-      <a href="https://github.com/yanmin-wu" class="iconfont icon-github" title="github"></a>
-      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
-      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
-  <a href="https://yanmin-wu.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
-</div>
-
-<div class="copyright">
-  
-  
-
-  <div class="busuanzi-footer">
     
-      
-    
-  </div>
-
-  <span class="copyright-year">
-    &copy; 
-    2020
-    <span class="heart">
-      <i class="iconfont icon-heart"></i>
-    </span>
-    <span class="author">Yanmin Wu</span>
-  </span>
-</div>
+    <footer>
+      Template is adapted from
+      <a href="https://cxh0519.github.io/">cxh0519</a><br/>
+      Last updated: Jan 2024
     </footer>
-
-    <div class="back-to-top" id="back-to-top">
-      <i class="iconfont icon-up"></i>
-    </div>
-  </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="/dist/even.ece58db6.min.js"></script>
-  <script type="text/javascript">
-    window.MathJax = {
-      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
-      TeX: {equationNumbers: {autoNumber: "AMS"}},
-      showProcessingMessages: false,
-      messageStyle: 'none'
-    };
-  </script>
-  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
-
-<script id="baidu_analytics">
-  var _hmt = _hmt || [];
-  (function() {
-    if (window.location.hostname === 'localhost') return;
-    var hm = document.createElement("script"); hm.async = true;
-    hm.src = "https://hm.baidu.com/hm.js?a7e303cce45b984d5aee0e28643619c4";
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(hm, s);
-  })();
-</script>
-
-
-
-
-
-
-</body>
+  </body>
 </html>
