@@ -1,0 +1,200 @@
+/* ==========================================
+   Global Styles
+   ========================================== */
+html, body {
+  font-family: "Times New Roman", "Georgia";
+  line-height: 1.6;
+  color: #222;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page width control */
+body {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 800px;
+  min-width: 375px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+b, strong {
+  font-weight: bold; 
+}
+
+/* Links #1772d0 */
+a {
+  text-decoration: none;
+  color: #476EAE; 
+  cursor: pointer;
+}
+a:hover {
+  color: #f09228;
+}
+
+/* ==========================================
+   Milestone Section
+   ========================================== */
+#milestones p {
+  margin-left: 1em;     /* Indentation */
+  margin-right: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* ==========================================
+   Publications Section
+   ========================================== */
+.publication-text p {
+  text-indent: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* ==========================================
+   Header Section
+   ========================================== */
+header {
+  font-size: 15px;
+  min-height: 273px;
+  padding: 20px;
+  margin: 8px 20px;
+  padding-right: 220px;
+  position: relative;
+}
+header > picture {
+  position: absolute;
+  width: 200px;
+  height: 273px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+@media (max-width: 540px) {
+  header {
+    padding-right: 0;
+  }
+  header > picture {
+    position: static;
+    display: block;
+    margin: auto;
+  }
+}
+
+/* Intro Section */
+.self-intro-name {
+  padding: 14px 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 32px;
+}
+.self-intro-links {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* ==========================================
+   Footer Section
+   ========================================== */
+footer {
+  text-align: right;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* ==========================================
+   Publication Cards (from inline CSS)
+   ========================================== */
+.publication {
+  padding: 20px;
+  font-size: 15px;
+}
+.publication p {
+  margin: 0;
+}
+.publication > picture {
+  float: left;
+  object-fit: contain;
+  margin-right: 20px;
+  overflow: hidden;
+}
+.publication > picture > img {
+  transition: transform ease-in-out .3s;
+}
+.publication > picture > img:hover {
+  transform: scale(1.1);
+}
+.publication .title {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.publication .authors {
+  margin-bottom: 5px;
+}
+.publication .venue {
+  margin-bottom: 5px;
+}
+.publication .links {
+  margin-bottom: 5px;
+}
+.publication .link::before {
+  content: "[";
+}
+.publication .link::after {
+  content: "]";
+}
+.publication .link {
+  margin-right: 3px;
+}
+.publication .desc {
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+/* company-university */
+.company-university {
+  font-family: "serif", "Consolas", Georgia, serif;   /* Use Georgia font */
+  color: #B22222;               /* Blue color (or any you prefer) */
+  font-weight: bold;            /* Optional */
+}
+/* <a> inside special text */
+.company-university a {
+  font-family: inherit;           /* Inherit parent font */
+  color: inherit;                 /* Inherit parent color */
+  text-decoration: underline;     /* Normal state with underline */
+  text-decoration-thickness: 0.5px;     /* underline thickness */
+  text-decoration-style: dashed;       /* solid, dashed, dotted, wavy */
+  text-underline-offset: 4px;         /* distance from text */
+}
+.company-university a:hover {
+  color: #f09228;                 /* Hover color */
+  text-decoration: none;          /* Remove underline on hover */
+}
+
+/* research-topic */
+.research-topic {
+  font-family: "Comic Sans MS", "Consolas", Georgia, serif;   /* Use Georgia font */
+  color: #556B2F;               /* Blue color (or any you prefer) */
+}
+
+.milestone-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.chinese-name {
+  font-family: "KaiTi", "楷体", "STKaiti", serif;  /* 中文楷体字体 */
+  font-weight: normal;                               /* 可选：根据需要加粗 */
+  font-size: 32px;                                   /* 可保持和原 self-intro-name 一致 */
+}

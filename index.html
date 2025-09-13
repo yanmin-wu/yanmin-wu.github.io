@@ -2,166 +2,128 @@
 <html lang="en">
   <head>
     <title>Yanmin Wu - Homepage</title>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover" />
     <meta name="description" content="Yanmin Wu's homepage" />
     <link rel="icon" href="media/sleep.svg" />
-    <style type="text/css">
-      @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap);
-      html {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        max-width: 100%;
-        height: 100%;
-      }
-      body {
-        padding: 0;
-        margin: 0 auto;
-        max-width: 800px;
-        min-width: 375px;
-      }
-      a {
-        text-decoration: none;
-        color: #1772d0;
-        cursor: pointer;
-      }
-      a:hover {
-        color: #f09228;
-      }
-      strong {
-        font-weight: 400;
-      }
-      header {
-        font-size: 15px;
-        min-height: 273px;
-        padding: 20px;
-        margin: 8px 20px;
-        padding-right: 220px;
-        position: relative;
-      }
-      header > picture {
-        position: absolute;
-        width: 200px;
-        height: 273px;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-      }
-      @media (max-width: 540px) {
-        header {
-          padding-right: 0;
-        }
-        header > picture {
-          position: static;
-          display: block;
-          margin: auto;
-        }
-      }
-      .self-intro-name {
-        padding: 14px 0;
-        text-align: center;
-        font-weight: 400;
-        font-size: 32px;
-      }
-      .self-intro-links {
-        text-align: center;
-      }
-      h1 {
-        font-size: 24px;
-        padding: 20px;
-        margin: 0;
-        font-weight: 400;
-      }
-      .publication {
-        padding: 20px;
-        font-size: 15px;
-      }
-      .publication p {
-        margin: 0;
-      }
-      .publication > picture {
-        float: left;
-        object-fit: contain;
-        margin-right: 20px;
-        overflow: hidden;
-      }
-      .publication > picture > img {
-        transition: transform ease-in-out .3s;
-      }
-      .publication > picture > img:hover {
-        transform: scale(1.1);
-      }
-      .publication .title {
-        font-weight: 500;
-        margin-bottom: 5px;
-      }
-      .publication .authors {
-        margin-bottom: 5px;
-      }
-      .publication .venue {
-        margin-bottom: 5px;
-      }
-      .publication .links {
-        margin-bottom: 5px;
-      }
-      .publication .link::before {
-        content: "[";
-      }
-      .publication .link::after {
-        content: "]";
-      }
-      .publication .link {
-        margin-right: 3px;
-      }
-      .publication .desc {
-        margin-top: 14px;
-        font-size: 14px;
-      }
-      footer {
-        text-align: right;
-        padding: 20px;
-        font-size: 14px;
-      }
-    </style>
   </head>
   <body>
+    <!-- ===========================
+         Header Section
+         =========================== -->
     <header>
-      <div class="self-intro-name">Yanmin Wu (吴艳敏)</div>
+      <div class="self-intro-name">Yanmin Wu (<span class="chinese-name">吴艳敏</span>)</div>
       <picture>
         <!-- <source srcset="/media/IDPhoto.avif" type="image/avif" /> -->
         <img width="172" height="232" src="img/profile.jpg" alt="ID Photo" />
       </picture>
       <div>
         <p>
-          I am a final-year Ph.D. candidate at Peking University, 
-          supervised by Prof. <b><a href="https://jianzhang.tech/">Jian Zhang</a></b> 
-          in the <b><a href="https://villa.jianzhang.tech/">VILLA</a></b>.
-        </p>
-        <p>
-          My research interests include 
-          <b>1)</b> Neural Rendering (NeRF/3D Gaussian); 
-          <b>2)</b> 3D Vision-and-Language; 
-          <b>3)</b> Visual SLAM.
-        </p>
-        <p>
-          I anticipate graduating in <b>Summer 2025</b> and am on the job market, seeking full-time opportunities. If you are interested, please feel free to contact me.
+          I am currently an Autonomous Driving Algorithm Engineer at <a href="https://www.xiaopeng.com/">XPeng Motors</a>. 
+          Previously, I was a Research Intern at <a href="https://home.baidu.com/">Baidu</a>. 
+          I received my Ph.D. in Computer Science from Peking University in 2025, 
+          supervised by Prof. <b><a href="https://jianzhang.tech/">Jian Zhang</a></b> in the <b><a href="https://villa.jianzhang.tech/">VILLA</a></b>.
+          My research interests include:
+          <b>1)</b>  Autonomous driving and robotics;
+          <b>2)</b>  3D reconstruction and neural rendering;
+          <b>3)</b>  3D Vision-language multimodal learning.
         </p>
         
+        <i>If you are interested in collaboration with me, or in exploring full-time or internship opportunities at XPeng, please feel free to contact me.</i>
+
         <div class="self-intro-links">
-          <a href="mailto:wuyanminmax[at]gmail.com">Email</a>
-          &nbsp;|&nbsp;
-          <a href="https://scholar.google.com/citations?user=11sQNWwAAAAJ&hl">Google Scholar</a>
-          &nbsp;|&nbsp;
-          <a href="https://github.com/yanmin-wu/">GitHub</a>
+          <img src="img/mail.png" alt="emial" style="width:18px; height:18px; vertical-align:-0.2em; margin-right:2px;"><b><a href="mailto:wuyanminmax[at]gmail.com">Email</a></b>
+          &nbsp;/&nbsp;
+          <img src="img/scholar.png" alt="scholar" style="width:20px; height:20px; vertical-align:-0.3em; margin-right:2px;"><b><a href="https://scholar.google.com/citations?user=11sQNWwAAAAJ&hl=en&oi=ao">Google Scholar</a></b>
+          &nbsp;/&nbsp;
+          <img src="img/github.png" alt="github" style="width:17px; height:17px; vertical-align:-0.2em; margin-right:2px;"><b><a href="https://github.com/yanmin-wu/">GitHub</a></b>
         </div>
       </div>
     </header>
+
+    <!-- ===========================
+         Milestone Moments Section
+         =========================== -->
+    <section id="milestones" class="my-12">
+      <h2 class="text-2xl font-bold mb-6">Milestone Moments</h2>
+      <div class="space-y-6 text-base leading-relaxed">
+        <div class="milestone-card">
+        <!-- <p> -->
+          <strong style="color: #ea0707">[2025/07]</strong> 👨🏻‍💻 Honored to join the Autonomous Driving Center at 
+          <img src="img/xpeng.png" alt="XPeng" style="width:20px; height:13px; vertical-align:-0.1em; margin-right:2px;">
+          <b class="company-university"><a href="https://www.xiaopeng.com/">XPeng Inc.</a></b>, focusing on <i class="research-topic">advanced autonomous driving, world models and VLA</i>.
+        <!-- </p> -->
+        </div>
+        
+        <div class="milestone-card">
+        <!-- <p> -->
+          <strong>[2025/07]</strong> 🎓 Graduated with a Ph.D. from 
+          <img src="img/pku.png" alt="PKU" style="width:17px; height:17px; vertical-align:-0.2em; margin-right:2px;">
+          <b class="company-university"><a href="https://www.pku.edu.cn/">Peking University (PKU)</a></b> and was named an 
+          <i><b>Outstanding Graduate of Peking University</b></i>.  
+          Supervised by Prof. <a href="https://jianzhang.tech/">Jian Zhang</a>, 
+          focused on <i class="research-topic">3D vision, neural rendering, vision-and-language, and AIGC</i>.  
+          Fortunate to have spent a delightful time with the 
+          <a href="https://villa.jianzhang.tech/">VILLA</a> group members.
+        <!-- </p> -->
+        </div>
+        
+        <div class="milestone-card">
+        <!-- <p> -->
+          <strong >[2024/06]</strong> 🖥 Completed a memorable internship at 
+          <img src="img/baidu.png" alt="Baidu" style="width:16px; height:16px; vertical-align:-0.1em; margin-right:2px;">
+          <b class="company-university"><a href="https://home.baidu.com/">Baidu Inc.</a></b> (2023/10–2024/06).  
+          Enjoyed pleasant collaboration with Dr. 
+          <a href="https://chenming-wu.github.io/">Chenming Wu</a> 
+          and <a href="https://scholar.google.com/citations?user=-VJZrUkAAAAJ&hl=en">Yahao Shi</a>  
+          on several projects and papers, including 
+          <a href="https://3d-aigc.github.io/OpenGaussian/">OpenGaussian</a>[NeurIPS2024],  
+          <a href="https://3dgir.github.io/">GIR</a>[T-PAMI2025], and  
+          <a href="https://www.arxiv.org/abs/2506.07489">DriveAnyMesh</a>[arXiv2025].
+        <!-- </p> -->
+        </div>
+        
+        <div class="milestone-card">
+        <!-- <p> -->
+          <strong>[2021/07]</strong> 🎓 Graduated with a master’s degree from 
+          <img src="img/neu.png" alt="NEU" style="width:18px; height:18px; vertical-align:-0.2em; margin-right:2px;">
+          <b class="company-university"><a href="https://www.neu.edu.cn/">Northeastern University (NEU)</a></b> and was honored as an 
+          <i><b>Outstanding Graduate of Liaoning Province</b></i>.  
+          Supervised by Prof. 
+          <a href="http://faculty.neu.edu.cn/zhangyunzhou/">Yunzhou Zhang</a>, 
+          focused on <i class="research-topic">Robotics and SLAM</i>, and spent three enriching years collaborating with fellow lab members.
+        <!-- </p> -->
+        </div>
+        
+        <div class="milestone-card">
+        <!-- <p> -->
+          <strong>[2020/07]</strong> 📜 Thrilled to publish my first academic paper:  
+          <a href="https://arxiv.org/abs/2004.12730">EAO-SLAM</a>[IROS2020].  
+          Deep gratitude to my academic mentor, Dr. 
+          <a href="https://scholar.google.com/citations?user=bsYWTV8AAAAJ&hl=en">Delong Zhu</a>.
+        <!-- </p> -->
+        </div>
+      </div>
+    </section>
     
+    <!-- ===========================
+         Footer Section
+         =========================== -->
     <footer>
-      Template is adapted from
-      <a href="https://cxh0519.github.io/">cxh0519</a><br/>
-      Last updated: Jan 2024
+    Last updated: July 2025
     </footer>
+
+    <!-- ===========================
+         Visitor Tracker (hidden)
+         =========================== -->
+    <a id="visitor-tracker" href="https://mapmyvisitors.com/web/1bz64" title="Visit tracker">
+      <img src="https://mapmyvisitors.com/map.png?d=B7v0-sHN8EGcQjkHvmgNfN5oe0L-yzTjrQ_OlPrnlNM&cl=ffffff" alt="tracker" />
+    </a>
+    <style>
+      #visitor-tracker { 
+        display: none; 
+      }
+    </style>
   </body>
 </html>
